@@ -50,7 +50,7 @@ class DiseaseSeverity extends StatelessWidget {
               Positioned(
                 bottom: 50,
                 height: size.height *
-                    (1 / (size.height < 880 ? 33 : 31)) *
+                    (1 / (size.height < 880 ? 33 : 32)) *
                     disease.severity,
                 width: size.width * 0.151,
                 child: Container(
